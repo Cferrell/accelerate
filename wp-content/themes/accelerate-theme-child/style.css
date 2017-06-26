@@ -30,6 +30,10 @@
   margin: 0 15px;
 }
 
+nav#primary-navigation {
+    margin-top: -25px;
+  }
+
 /*203 modify query to add blog post to the front page*/
 .blog-post {
 	width: 50%;
