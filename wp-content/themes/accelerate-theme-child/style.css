@@ -69,3 +69,7 @@ div.case-study-images img {
   margin-bottom: 50px;
   border: 1px solid #dddddd;
 }
+
+article.case-study {
+  margin-top: 40px;
+}
