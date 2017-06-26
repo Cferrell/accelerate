@@ -34,7 +34,7 @@ get_header(); ?>
 	</aside>
 	<div class="case-study-images">
 		<?php if($image_1) { ?>
-			echo wp_get_attachment_image( $image_1, $size );
+			<img src="<?php echo wp_get_attachment_image( $image_1, $size ); ?>" />
 		<?php } ?>
 		<?php if($image_2) { ?>
 			<img src="<?php echo $image_2; ?>"/>
