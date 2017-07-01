@@ -60,6 +60,17 @@ nav#primary-navigation {
 	text-transform: uppercase;
 }
 
+/*203 case study onto homepage*/
+.individual-featured-work {
+  list-style: none;
+  border-bottom: solid;
+  padding-bottom: 15px;
+}
+
+.featured-work h4 {
+  color: red;
+}
+
 /*203 custom post type case study*/
 aside.case-study-sidebar {
   float: left;
