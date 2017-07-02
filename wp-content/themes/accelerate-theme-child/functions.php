@@ -38,5 +38,32 @@
             'rewrite' => array( 'slug' => 'case-studies' ),
         )
     );
+
+
+//203 create custom post type for about page
+
+    register_post_type( 'about',
+        array(
+            'labels' => array(
+                'name' => __( 'About' ),
+                'singular_name' => __( 'About Content' )
+            ),
+            'public' => true,
+            'has_archive' => true,
+            'rewrite' => array( 'slug' => 'about' ),
+        )
+    );
 }
 add_action( 'init', 'create_custom_post_types' );
+
+function odd_or_even($counter)
+{
+    if($counter % 2 == 0)
+    {
+        return "even";
+    }
+    else
+    {
+        return "odd";
+    }
+}

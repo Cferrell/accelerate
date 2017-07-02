@@ -147,37 +147,25 @@ div#content {
 
     }
 
-    /*about page content*/
-.content {
+/*single about styles*/
+.about-content {
   display: flex;
   flex-flow: row nowrap;
   align-items: center;
   justify-content: center;
-  padding: 10px;
-  width: 75%;
-  padding-top: 40px;
-  margin:auto;
+  margin: auto;
+  }
+
+  .about-text {
+    padding: 20px;
+  }
+
+
+.post-list-even .about-content{
+  flex-direction: row-reverse;
 }
 
-.about-content {
-  padding-bottom: 50px;
-}
-
-    .about-image {
-      width: 25%;
-      flex-flow: row;
-        padding: 5px;
-        align-items: center;
-
-    }
-
-    .about-text {
-      width: 75%;
-      flex-flow: row;
-      padding-left:30px;
-    }
-
-    .about-interest{
+.about-interest{
       border-top: solid lightgrey;
         border-bottom: solid lightgrey;
         width: 80%;
