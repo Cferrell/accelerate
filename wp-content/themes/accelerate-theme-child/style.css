@@ -192,3 +192,13 @@ div#content {
   .interest-button a {
     color: white;
   }
+
+  /*404 page styles */
+  .lost {
+      background: url("img/lost.jpg") no-repeat fixed center;
+          height: 600px;
+  }
+
+  .oops {
+    text-align: center;
+  }
