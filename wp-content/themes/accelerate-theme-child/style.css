@@ -86,6 +86,7 @@ nav#primary-navigation {
 aside.case-study-sidebar {
   float: left;
   width: 30%;
+  clear: both;
 }
 
 div.case-study-images {

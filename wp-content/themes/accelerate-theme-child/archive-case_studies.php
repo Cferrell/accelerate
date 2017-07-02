@@ -26,7 +26,7 @@ get_header(); ?>
       	<div class="case-study-images">
           <a href="<?php the_permalink(); ?>">
       		<?php if($image_1) { ?>
-          <img src="<?php echo wp_get_attachment_image( $image_1, $size ); ?>
+          <img src=<?php echo wp_get_attachment_image( $image_1, $size ); ?>
       		<?php } ?>
           </a>
       	</div>
