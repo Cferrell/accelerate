@@ -92,3 +92,23 @@ div.case-study-images img {
 article.case-study {
   margin-top: 40px;
 }
+
+/*203 contact form styles*/
+
+div#nf-field-4-container {
+    float: right;
+}
+
+#nf-field-4 {
+  font-size: 20px;
+  padding: 15px 100px;
+  margin: auto;
+  display: block;
+  background-color: #45ac9d;
+  color: white;
+}
+
+div#content {
+    width: 80%;
+    margin: 10%;
+  }
