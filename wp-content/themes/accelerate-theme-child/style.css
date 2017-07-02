@@ -112,3 +112,95 @@ div#content {
     width: 80%;
     margin: 10%;
   }
+
+  /*203 ABOUT PAGE*/
+  .about-header {
+    background: url("img/taxi-photo.jpg") no-repeat scroll left center / cover rgba(0, 0, 0, 0);
+    height: 300px;
+    text-align: center;
+  }
+
+    .about-header h2 {
+      color: white;
+      margin: 0px;
+      padding: 50px 30%;
+      line-height: 40px;
+      font-weight: bold;
+      width: 45%;
+      text-align: center;
+    }
+
+    .about-header h2 span {
+      color: #45ac9d;
+      margin: 0px;
+    }
+
+    .about-title h5 {
+      text-align: center;
+      text-transform: uppercase;
+      margin-bottom: 20px;
+    }
+
+    .about-title p {
+      text-align: center;
+      line-height: 5px;
+
+    }
+
+    /*about page content*/
+.content {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+  width: 75%;
+  padding-top: 40px;
+  margin:auto;
+}
+
+.about-content {
+  padding-bottom: 50px;
+}
+
+    .about-image {
+      width: 25%;
+      flex-flow: row;
+        padding: 5px;
+        align-items: center;
+
+    }
+
+    .about-text {
+      width: 75%;
+      flex-flow: row;
+      padding-left:30px;
+    }
+
+    .about-interest{
+      border-top: solid lightgrey;
+        border-bottom: solid lightgrey;
+        width: 80%;
+        margin: auto;
+        display: flex;
+        flex-flow: row nowrap;
+        justify-content: center;
+        padding: 60px 0;
+            }
+
+  .interest-text h3 {
+    margin: 0;
+    padding: 15px 40px;
+  }
+
+  .interest-button h3 {
+    background-color: #45ac9d;
+    color: white;
+    padding: 15px 50px;
+    text-align: center;
+    margin: 0;
+  }
+
+  .interest-button a {
+    color: white;
+  }
