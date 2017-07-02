@@ -18,7 +18,7 @@ get_header(); ?>
 		<?php while ( have_posts() ) : the_post(); ?>
 			<div class='homepage-hero'>
 				<?php the_content(); ?>
-				<a class="button" href="<?php echo home_url(); ?>/blog">View Our Work</a>
+				<a class="button" href="<?php echo home_url(); ?>/about">Learn About Us</a>
 			</div>
 		<?php endwhile; // end of the loop. ?>
 	</div><!-- .container -->
@@ -32,7 +32,7 @@ get_header(); ?>
 		<?php query_posts('posts_per_page=3&post_type=case_studies'); ?>
 		<?php while ( have_posts() ) : the_post();
 		$image_1 = get_field ("image_1");
-		$size = "medium";
+		$size = "thumbnail";
 		?>
 		<li class="individual-featured-work">
 		<figure>
@@ -67,5 +67,11 @@ get_header(); ?>
 		</div>
 	</section>
 <!--end of lesson-->
+
+<?php if ( is_active_sidebar( 'sidebar-2' ) ) : ?>
+<div id="secondary" class="widget-area" role="complementary">
+	<?php dynamic_sidebar( 'sidebar-2' ); ?>
+</div>
+<?php endif; ?>
 
 <?php get_footer(); ?>
